@@ -4,9 +4,9 @@ OVERVIEW
 
 The currency_exchange_monitor.py script provides a user-friendly interface for the following functions:
 
--Currency exchange between the base currency and foreign currency entered by the user.
--Monitoring exchange rates for selected currencies using custom alert agents
--Receiving alert notifications when the rates cross user-defined upper and lower thresholds.
+Currency exchange between the base currency and foreign currency entered by the user.
+Monitoring exchange rates for selected currencies using custom alert agents
+Receiving alert notifications when the rates cross user-defined upper and lower thresholds.
 
 
 PREREQUISITE:
