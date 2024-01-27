@@ -26,14 +26,14 @@ pip install uagents
 
 HOW TO USE:
 
--Run the script currency_exchange_monitor.py using Python 3.x.
--The application's GUI will appear.
--Select the base currency and target currency from the dropdown menus.
--Enter upper and lower limits for monitoring exchange rate.
--Click the "OK" button to start monitoring exchange rates and to trigger alert agents.
--The application will display the exchange rate and conversion result in the GUI.
--Clear all button to reset the input fields.
--You will receive alert messages if the exchange rate crosses the specified upper or lower limits when you close the current tkinter window, powered by custom alert agents.
+1. Run the script currency_exchange_monitor.py using Python 3.x.
+2. The application's GUI will appear.
+3. Select the base currency and target currency from the dropdown menus.
+4. Enter upper and lower limits for monitoring exchange rate.
+5. Click the "OK" button to start monitoring exchange rates and to trigger alert agents.
+6. The application will display the exchange rate and conversion result in the GUI.
+7. Clear all button to reset the input fields.
+8. You will receive alert messages if the exchange rate crosses the specified upper or lower limits when you close the current tkinter window, powered by custom alert agents.
 
 
 FEATURES:
