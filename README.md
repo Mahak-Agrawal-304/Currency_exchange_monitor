@@ -1,6 +1,6 @@
 # Currency Exchange Monitor
 
-## OVERVIEW
+### OVERVIEW
 
 The currency_exchange_monitor.py script provides a user-friendly interface for the following functions:
 
@@ -9,7 +9,7 @@ The currency_exchange_monitor.py script provides a user-friendly interface for t
 - Receiving alert notifications when the rates cross user-defined upper and lower thresholds.
 
 
-## PREREQUISITE:
+### PREREQUISITE:
 
 To run the currency_exchange_monitor.py script, you need to have the following prerequisites installed:
 1. Python 3.x
@@ -24,7 +24,7 @@ To run the currency_exchange_monitor.py script, you need to have the following p
    ```
 
 
-## HOW TO USE:
+### HOW TO USE:
 
 1. Run the script currency_exchange_monitor.py using Python 3.x.
 2. The application's GUI will appear.
@@ -36,14 +36,14 @@ To run the currency_exchange_monitor.py script, you need to have the following p
 8. You will receive alert messages if the exchange rate crosses the specified upper or lower limits when you close the current tkinter window, powered by custom alert agents.
 
 
-## FEATURES:
+### FEATURES:
 
 1. Real-time exchange rate monitoring with user-defined upper and lower limits.
 2. Alert messages for rate limit breaches, using custom alert agents.
 3. Clear button to reset the input fields.
 
 
-## CODE STRUCTURE:
+### CODE STRUCTURE:
 
 - The script follows a modular structure, using functions for different tasks.
 - It utilizes threading to run currency conversion and rate monitoring concurrently.
@@ -52,11 +52,11 @@ To run the currency_exchange_monitor.py script, you need to have the following p
 - Custom alert agents are integrated to provide notifications when rate limits are breached.
 
 
-## API KEY:
+### API KEY:
 
 The script uses an API key to fetch exchange rate data from an external source. The API key used in this script may be subject to rate limits or restrictions. If you plan to use this script in a production environment, consider obtaining your API key from a reliable source and replacing the placeholder API key in the headers dictionary.
 
 
-## ALERT AGENTS:
+### ALERT AGENTS:
 
 Custom alert agents have been added to the script to provide rate monitoring and notifications using uAgents (Micro Agents). These agents continuously check the exchange rate between the selected currencies and trigger alerts when the rate crosses the user-defined upper or lower limit. The alerts are displayed as pop-up messages in the GUI.
